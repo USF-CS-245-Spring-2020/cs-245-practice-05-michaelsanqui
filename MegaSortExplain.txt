@@ -1,0 +1,6 @@
+Mega Sort Explain - 
+
+	Reason I used counting sort is because the it's the fastest algorithm 
+that I know for integer-only files (plus I don't understand ArrayLists for Radix/Bucket Sort).
+
+Counting sort is  space effective when the maximum value is small relavtive to the amount of items inside the array. In this case the maxiumum value is 9999; a range of 10000 items on the temporary storage array while the number of data values is 1000000. The range is 100 times smaller than the amount of data. Bucket/Radix sort is better (at least how I understand) in terms of space when the the range is greater than the amount of data values, because the temporary storage array(at least how I understand, we haven't learned the implementation) size is equal to the amount of data stored in ArrayLists/Linked lists. 
